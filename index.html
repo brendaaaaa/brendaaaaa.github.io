@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #99ff99; /* sky blue*/
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #66d9ff; /*light blue*/
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #CCCCCC; /*light grey*/
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Brenda Perez</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="Bio.html">Bio</a></li>
+        <li><a href="MyResume.html">My Resume</a></li>
+        <li><a href="ContactInfo.html">Contact Info</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin"></h3>
+  <img src="C:/Users/GWC/Downloads/IMG_3664.JPG" class="img-responsive img-sqaure margin" style="display:inline" alt="Brenda" width="300" height="300">
+  <h3>Hello My name is Brenda Perez.</h3>
+</div>
+    
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Bio</h3>                                               
+    <img src="C:/Users/GWC/Downloads/FullSizeRender (1).jpg" class="img-responsive img-circle margin" style="display:inline" atl="Brenda.2" width="255" height="200">
+  <p>I am 16 years old and rising senior at North Springs High School.I am from Georgia born and raised, certified in Microsoft Word and Powerpoint.This year i became was in JA fellows(an entrepeurnural program)winning #1 company for Georgia, as well as involved in the program of Girls Who Code.Including myself into school extra curriculars is my hobby. I have been in FBLA,(WIT) Women in Technology,Chickfila Leadership Academy, and other clubs focusing on volunteer oppoortunities. My goal is to Major in Computer Engineering, hopefully go to Georgia Tech. </p>
+  <a href="Bio.html" class="btn-default btn-lg">
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Gallery</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>The picture shows a project's made while in Girls Who Code program, such as coding games and robotic movements.</p>
+      <img src="C:/Users/GWC/Downloads/Screenshot (2) (1).png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Click below to view my resume.</p>
+      <script> 
+        function resume("https://docs.google.com/document/d/1VF9k-5VOvDLyTi7AiZG7LVLEZU73z-tBi0qmKfkM_ME/edit") </script>
+   <button type="button" onclick='documetn.getElementById("resume").innerHTML="resume"'> Click Me!</button>
+    
+    </div>
+    <div class="col-sm-4"> 
+      <p>The picture is the product made from the Program of JA Fellows that was placed #1 for Georgia and taken to Nationals, called "The Last Drop".</p>
+      <img src="C:/Users/GWC/Downloads/FullSizeRender.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+    
+    
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center-bottom">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
+
+</body>
+</html>
